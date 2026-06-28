@@ -1,0 +1,21 @@
+{
+  "id": "2026-06-20-api-rate-limiter",
+  "title": "API rate limiter",
+  "classification": "engineering-prd",
+  "modes": [
+    "publish"
+  ],
+  "created_at": "2026-06-20",
+  "source": {
+    "host": "claude-code",
+    "conversation_id": "gen-engineering-prd",
+    "completeness": "full",
+    "message_count": 7
+  },
+  "outputs": {
+    "human_page": "artifact.md"
+  },
+  "visibility": "public",
+  "redacted": true,
+  "next_actions": []
+}
