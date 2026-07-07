@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>旅途全程手册 · 香港 × 暹粒 × 新加坡</title>
+<meta name="description" content="悉尼往返 · 2026-07-12 → 07-26 · 15 天 · 4 段航班 / 3 座城 / 3 家酒店">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#f4eee2;
+    --paper-2:#ece3d2;
+    --card:#fbf7ee;
+    --ink:#23201b;
+    --ink-soft:#6d6656;
+    --line:#d3c8b1;
+    --line-soft:#e2d9c6;
+    --brick:#9c3d2e;
+    --brick-soft:#bb6a52;
+    --done:#78855f;
+    --gold:#a9822f;
+    --maxw:940px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    background-image:radial-gradient(circle at 18% 12%, #f9f4ea 0%, rgba(249,244,234,0) 42%),
+                     radial-gradient(circle at 84% 8%, #f1ead9 0%, rgba(241,234,217,0) 46%);
+    color:var(--ink);
+    font-family:-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    line-height:1.62;
+    font-size:16px;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px 96px}
+  .serif,h1,h2,h3{font-family:"Noto Serif SC",Georgia,"Songti SC","STSong",serif;font-weight:600;letter-spacing:.01em}
+
+  /* ── 报头 ── */
+  header.top{padding:56px 0 0;text-align:center}
+  .kicker{font-size:11.5px;letter-spacing:.42em;text-transform:uppercase;color:var(--brick);font-weight:600}
+  .kicker .dot{color:var(--brick-soft);margin:0 8px}
+  h1{font-size:clamp(30px,6.4vw,50px);line-height:1.1;margin:20px 0 0}
+  h1 .em{color:var(--brick);font-style:italic}
+  .dateline{font-size:13.5px;color:var(--ink-soft);margin-top:18px;letter-spacing:.03em}
+  .rule{height:1px;background:linear-gradient(90deg,transparent,var(--line),transparent);margin:30px auto 0;max-width:520px}
+
+  /* ── Hero 线稿融入纸底 ── */
+  .hero{margin:26px auto 0;max-width:900px}
+  .hero img{width:100%;display:block;mix-blend-mode:multiply;filter:saturate(1.05)}
+  .hero .cap{text-align:center;font-size:12.5px;color:var(--ink-soft);letter-spacing:.04em;margin-top:2px}
+
+  /* ── 概览统计 ── */
+  .stats{display:grid;grid-template-columns:repeat(5,1fr);gap:0;margin:40px 0 8px;border:1px solid var(--line);background:var(--card);border-radius:3px;overflow:hidden}
+  .stats div{padding:20px 14px;text-align:center;border-right:1px solid var(--line-soft)}
+  .stats div:last-child{border-right:none}
+  .stats .n{font-family:"Noto Serif SC",Georgia,serif;font-size:clamp(22px,4.4vw,30px);line-height:1;color:var(--brick)}
+  .stats .l{font-size:11px;color:var(--ink-soft);margin-top:9px;letter-spacing:.03em}
+  @media(max-width:640px){.stats{grid-template-columns:repeat(2,1fr)}.stats div:nth-child(2){border-right:none}.stats div:nth-child(5){grid-column:1/-1;border-right:none}}
+  .lede{font-size:14.5px;color:var(--ink-soft);margin:20px auto 0;max-width:60ch;text-align:center}
+
+  /* ── 区块 ── */
+  section{margin:64px 0 0}
+  .sec-h{display:flex;align-items:baseline;gap:14px;border-bottom:2px solid var(--ink);padding-bottom:10px;margin-bottom:26px}
+  .sec-h .no{font-family:Georgia,serif;font-size:12px;color:var(--brick);letter-spacing:.14em;font-weight:700}
+  .sec-h h2{font-size:22px}
+  .sec-h .sub{font-size:12px;color:var(--ink-soft);margin-left:auto;text-align:right;letter-spacing:.02em}
+
+  /* 路线图 */
+  .route{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:18px 16px;text-align:center}
+  .route img{width:100%;max-width:820px;mix-blend-mode:multiply}
+
+  /* 时间线 */
+  .tl{position:relative;padding-left:30px;margin-top:6px}
+  .tl::before{content:"";position:absolute;left:8px;top:8px;bottom:8px;width:2px;background:linear-gradient(var(--brick-soft),var(--line))}
+  .leg{position:relative;margin-bottom:26px}
+  .leg::before{content:"";position:absolute;left:-27px;top:4px;width:13px;height:13px;border-radius:50%;background:var(--brick);box-shadow:0 0 0 4px var(--paper)}
+  .leg.stay::before{background:var(--done)}
+  .leg .d{font-size:11.5px;letter-spacing:.08em;color:var(--brick);font-weight:700;text-transform:uppercase}
+  .leg.stay .d{color:var(--done)}
+  .leg .t{font-size:16px;margin-top:4px;font-weight:600}
+  .leg .m{font-size:13px;color:var(--ink-soft);margin-top:3px}
+  .pill{display:inline-block;font-size:10.5px;padding:2px 9px;border-radius:20px;margin-left:6px;vertical-align:middle;letter-spacing:.02em}
+  .pill.biz{background:#efe3c6;color:var(--gold)}
+  .pill.ok{background:#e3ead7;color:var(--done)}
+
+  /* 卡片 */
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:620px){.grid{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:18px 20px;transition:transform .18s ease,box-shadow .18s ease}
+  .card:hover{transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,90,60,.10)}
+  .card h3{font-size:15px;margin-bottom:12px;color:var(--brick);display:flex;align-items:center;gap:7px}
+  .card .row{font-size:13.5px;padding:5px 0;border-bottom:1px dotted var(--line);display:flex;justify-content:space-between;gap:12px}
+  .card .row:last-child{border-bottom:none}
+  .card .row b{color:var(--ink-soft);font-weight:600;flex-shrink:0}
+  .card .row span{text-align:right;color:var(--ink)}
+
+  /* 清单 */
+  ul.ck{list-style:none;font-size:14px}
+  ul.ck li{padding:6px 0 6px 26px;position:relative;border-bottom:1px dotted var(--line)}
+  ul.ck li:last-child{border-bottom:none}
+  ul.ck li::before{content:"○";position:absolute;left:2px;color:var(--brick-soft);font-size:13px}
+  ul.ck li.done::before{content:"●";color:var(--done)}
+  ul.ck li.done{color:var(--ink-soft)}
+  ul.ck li b{color:var(--ink)}
+
+  /* 表格 */
+  table{width:100%;border-collapse:collapse;font-size:13.5px;background:var(--card);border:1px solid var(--line);border-radius:4px;overflow:hidden}
+  th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line-soft);vertical-align:top}
+  th{background:var(--paper-2);font-size:11.5px;letter-spacing:.05em;color:var(--ink-soft);text-transform:uppercase}
+  tr:last-child td{border-bottom:none}
+  td .w{color:var(--brick);font-weight:600}
+  td .st{font-size:11px;color:var(--done)}
+
+  /* 提示条 */
+  .note{border-radius:4px;padding:14px 18px;font-size:13.5px;margin-top:18px;background:var(--card);border-left:3px solid var(--brick)}
+  .note.warn{border-left-color:#b3541e;background:#f7ede0}
+  .note b{color:var(--brick)}
+  .note.warn b{color:#b3541e}
+
+  footer{margin-top:80px;border-top:2px solid var(--ink);padding-top:20px;text-align:center;font-size:12px;color:var(--ink-soft);letter-spacing:.03em;line-height:1.9}
+  footer .em{color:var(--brick);font-style:italic;font-family:"Noto Serif SC",Georgia,serif}
+  a{color:var(--brick);text-decoration:none;border-bottom:1px solid var(--brick-soft)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <div class="kicker">Sydney<span class="dot">·</span>Hong Kong<span class="dot">·</span>Siem Reap<span class="dot">·</span>Singapore</div>
+    <h1>旅途全程手册<br><span class="em">香港 × 暹粒 × 新加坡</span></h1>
+    <div class="dateline">悉尼往返 · 2026 年 7 月 12 – 26 日 · 共 15 天 · 一人出差 + 顺道玩</div>
+    <div class="rule"></div>
+  </header>
+
+  <div class="hero">
+    <img src="./assets/hero.png" alt="小黑拖着行李箱、背着背包，独自走过悉尼、香港、暹粒、新加坡再回到悉尼的手绘旅行插画">
+    <div class="cap">一个背包，一个箱子，一箱到底</div>
+  </div>
+
+  <div class="stats">
+    <div><div class="n">15</div><div class="l">全程天数</div></div>
+    <div><div class="n">4</div><div class="l">航段 · 一箱到底</div></div>
+    <div><div class="n">3</div><div class="l">城市 / 酒店</div></div>
+    <div><div class="n">23<span style="font-size:.6em">kg</span></div><div class="l">托运 · 全段统一</div></div>
+    <div><div class="n">✓</div><div class="l">柬 e-Visa 已出签</div></div>
+  </div>
+  <p class="lede">一个背包（7kg 手提，暹粒白天背它）+ 一个 23kg 托运箱，自己拖。出差不带笔记本，带 iPad mini。三地 7 月湿热，悉尼冷，暹粒雨季午后暴雨。</p>
+
+  <!-- 01 时间线 -->
+  <section>
+    <div class="sec-h"><span class="no">01</span><h2>全程时间线</h2><span class="sub">悉尼 → 港 → 暹粒 → 新 → 悉尼</span></div>
+    <div class="route" style="margin-bottom:30px">
+      <img src="./assets/route.svg" alt="悉尼出发，经香港、暹粒、新加坡，夜航返回悉尼的四段航线流程图">
+    </div>
+    <div class="tl">
+      <div class="leg"><div class="d">7/12 周日 · 飞行</div><div class="t">悉尼 SYD 10:10 → 香港 HKG 17:45　国泰 CX162<span class="pill biz">商务舱</span></div><div class="m">座 19A · 777-300ER · 9h35m · 蚝油炒牛柳餐已选</div></div>
+      <div class="leg stay"><div class="d">7/13–7/16 · 香港办公</div><div class="t">QRT 中环 Central Tower · 住 The Murray</div><div class="m">下班后逛中环画廊群 · 太平山顶 · 天星小轮</div></div>
+      <div class="leg"><div class="d">7/17 周五 · 飞行</div><div class="t">香港 HKG 13:20 → 暹粒 SAI 18:55　曼谷航空 PG</div><div class="m">Booking.com 订 · 机场柜台办 · 提早 3h · 带 e-Visa 打印</div></div>
+      <div class="leg stay"><div class="d">7/17–7/19 · 暹粒 2 晚</div><div class="t">住 HARI Residence &amp; Spa</div><div class="m">7/18 整日游吴哥 + 晚上 Phare 马戏</div></div>
+      <div class="leg"><div class="d">7/19 周日 · 飞行</div><div class="t">暹粒 SAI 16:00 → 新加坡 SIN 19:25　新航 SQ165<span class="pill ok">自动值机</span></div><div class="m">落地当晚可去 One Fullerton 星巴克问米菲</div></div>
+      <div class="leg stay"><div class="d">7/20–7/24 · 新加坡办公</div><div class="t">QRT IOI Central Boulevard · 住 The Fullerton</div><div class="m">工作日晚 teamLab · 滨海湾灯光秀 · 老巴刹</div></div>
+      <div class="leg"><div class="d">7/25 周六 · 夜航返程</div><div class="t">新加坡 SIN 20:20 → 悉尼 SYD 06:05(+1)　英航 BA0015<span class="pill ok">FO5IQT</span></div><div class="m">7/26 清晨抵悉尼到家 · 入境如实申报食品</div></div>
+    </div>
+  </section>
+
+  <!-- 02 航班酒店 -->
+  <section>
+    <div class="sec-h"><span class="no">02</span><h2>航班 · 酒店 · 确认号</h2><span class="sub">订座号 FO5IQT</span></div>
+    <div class="grid">
+      <div class="card">
+        <h3>✈️ 四段机票</h3>
+        <div class="row"><b>去程 CX162</b><span>商务 · 座 19A ✓</span></div>
+        <div class="row"><b>港→暹 PG</b><span>Booking.com · 柜台</span></div>
+        <div class="row"><b>暹→新 SQ165</b><span>FGKHWU · 自动</span></div>
+        <div class="row"><b>返程 BA0015</b><span>FO5IQT · 24h 值机</span></div>
+        <div class="row"><b>常客号</b><span>QF 澳航（去程已挂）</span></div>
+      </div>
+      <div class="card">
+        <h3>🏨 三家酒店</h3>
+        <div class="row"><b>香港</b><span>The Murray · Central</span></div>
+        <div class="row"><b>暹粒</b><span>HARI · Agoda 2025175316</span></div>
+        <div class="row"><b>新加坡</b><span>The Fullerton · Marina</span></div>
+        <div class="row"><b>签证</b><span>柬 e-Visa 已出签 ✓</span></div>
+        <div class="row"><b>行李</b><span>4 段一箱 23kg 到底</span></div>
+      </div>
+    </div>
+    <div class="note"><b>票券 → App 已全部实测：</b>国泰 App 可进 Manage Booking（7/10 中午 10:10 自助值机）· 新航已加 · 英航已加 · 曼谷航空用 Booking.com · Agoda 可见。</div>
+  </section>
+
+  <!-- 03 倒计时 -->
+  <section>
+    <div class="sec-h"><span class="no">03</span><h2>行前倒计时 · 关键节点</h2><span class="sub">今天 7/7 · 距出发 5 天</span></div>
+    <table>
+      <tr><th style="width:22%">时间</th><th>事项</th><th style="width:14%">状态</th></tr>
+      <tr><td><span class="w">已完成</span></td><td>柬 e-Visa 出签 · Airalo eSIM 已买+已下载装机</td><td><span class="st">✓ done</span></td></tr>
+      <tr><td>7/10 起</td><td>填柬埔寨 e-Arrival 电子入境卡</td><td>—</td></tr>
+      <tr><td><span class="w">7/10 10:10</span></td><td>国泰 CX162 网上值机（App 内 Check-in 存 Wallet）</td><td>—</td></tr>
+      <tr><td>行前几天</td><td>订吴哥 1 日票 $37 + Phare 马戏 B 区 $28</td><td>—</td></tr>
+      <tr><td>行前</td><td>备好兜底卡（Wise + Amex/Visa）· 扫 amaysim 余额盖过 7/26</td><td>—</td></tr>
+      <tr><td>7/16 周四</td><td>填新加坡入境卡 SGAC</td><td>—</td></tr>
+      <tr><td>7/26 落地</td><td>悉尼 Incoming Passenger Card 申报食品</td><td>—</td></tr>
+    </table>
+    <div class="note"><b>境外交易无需申请</b>——卡默认可用，以前海外用过系统认得你；只需 App 里扫一眼卡没被自己锁「仅限本地」，备好兜底卡即可。</div>
+  </section>
+
+  <!-- 04 钱通讯 -->
+  <section>
+    <div class="sec-h"><span class="no">04</span><h2>钱 · 通讯 · 网络</h2></div>
+    <div class="grid">
+      <div class="card">
+        <h3>💳 支付（优先 Wise 卡）</h3>
+        <div class="row"><b>主力</b><span>Wise 卡 USD/SGD 直扣</span></div>
+        <div class="row"><b>大额</b><span>Amex 白金（酒店/贵宾室）</span></div>
+        <div class="row"><b>兜底</b><span>Visa（小店更通用）</span></div>
+        <div class="row"><b>取现</b><span>暹粒 ATM 用 Wise 取 USD</span></div>
+        <div class="row"><b>打车</b><span>Grab 已绑 Wise</span></div>
+      </div>
+      <div class="card">
+        <h3>📱 通讯（已实测）</h3>
+        <div class="row"><b>上网</b><span>Airalo eSIM 已装机</span></div>
+        <div class="row"><b>激活</b><span>落地香港开漫游即可</span></div>
+        <div class="row"><b>澳号</b><span>amaysim 搬备用机留家</span></div>
+        <div class="row"><b>收短信</b><span>前转已测 ✓（含 OTP）</span></div>
+        <div class="row"><b>通话</b><span>FaceTime / 微信 / WhatsApp</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 打包 -->
+  <section>
+    <div class="sec-h"><span class="no">05</span><h2>打包清单</h2><span class="sub">一箱到底 · 速干为主 · 15–18kg 好拖</span></div>
+    <div class="grid">
+      <div class="card">
+        <h3>👕 衣物 · 鞋袜</h3>
+        <ul class="ck">
+          <li class="done">AIRism T 恤 ×3 + 薄夹克</li>
+          <li class="done">速干裤 · 商务 smart casual</li>
+          <li>吴哥：有袖上衣 + 过膝长裤（鞋不用脱）</li>
+          <li class="done">运动鞋（吴哥）+ 板鞋（城市）</li>
+          <li class="done">速干运动袜 ×4 · 泳裤</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>🔌 电子 · 证件</h3>
+        <ul class="ck">
+          <li class="done">USB-C 充电宝（随身禁托运）+ 线</li>
+          <li class="done">iPad mini · 转换头</li>
+          <li class="done">e-Visa 打印 ×2（已放包）</li>
+          <li>护照本体 · Wise + 备用卡 · USD 现金</li>
+          <li>证件复印件 · 墨镜别忘带</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>🧴 防晒 · 防蚊 · 护膝</h3>
+        <ul class="ck">
+          <li class="done">防晒霜 · 固体清凉油</li>
+          <li>驱蚊液香港落地买（DEET≥30%）</li>
+          <li>髌骨绑带（香港 Decathlon/豐澤）</li>
+          <li>雨季手机防水袋（可选）</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>🎁 手信</h3>
+        <ul class="ck">
+          <li class="done">给港同事：Tim Tam / 夏威夷果</li>
+          <li>给家人：菠萝挞 / TWG 茶 / Kaya 酱</li>
+          <li>香港：Jenny 曲奇 / 奇华（申报）</li>
+        </ul>
+      </div>
+    </div>
+    <div class="note warn"><b>入境澳洲红线：</b>🚫 新加坡猪肉脯禁带回澳洲——当地吃别带。✅ 饼干/茶/糖果可带但须在 Incoming Passenger Card 如实申报。酱料超 100ml 记得<b>托运别随身</b>。</div>
+  </section>
+
+  <!-- 06 暹粒 -->
+  <section>
+    <div class="sec-h"><span class="no">06</span><h2>暹粒 · 吴哥一日游</h2><span class="sub">7/18 纯玩日</span></div>
+    <table>
+      <tr><th style="width:26%">时间</th><th>安排</th></tr>
+      <tr><td><span class="w">04:30–05:30</span></td><td>小吴哥 Angkor Wat 看日出</td></tr>
+      <tr><td>08:30–10:30</td><td>大吴哥 + 巴戎寺 Bayon（高棉的微笑）</td></tr>
+      <tr><td>10:30–12:00</td><td>塔布茏寺 Ta Prohm（古墓丽影树根）</td></tr>
+      <tr><td>12:00–14:00</td><td>回城午餐 + 避暑午休（正午最晒）</td></tr>
+      <tr><td>15:00–17:30</td><td>巴肯山日落 / 或女王宫 Banteay Srei</td></tr>
+      <tr><td><span class="w">20:00</span></td><td>Phare 柬埔寨马戏（1h · B 区 $28 · 官网订）</td></tr>
+    </table>
+    <div class="note"><b>着装：</b>过膝长裤 + 有袖上衣，带水/防晒/驱蚊。<b>交通：</b>突突车一日包车约 USD 20–25。<b>膝盖：</b>下陡梯侧身抓扶手，暹粒借竹杖。</div>
+  </section>
+
+  <!-- 07 玩乐购物 -->
+  <section>
+    <div class="sec-h"><span class="no">07</span><h2>看展 · 购物 · 吃</h2></div>
+    <div class="grid">
+      <div class="card">
+        <h3>🎨 看展 &amp; 玩</h3>
+        <div class="row"><b>香港</b><span>下班后中环画廊群</span></div>
+        <div class="row"><b>新加坡</b><span>teamLab（Klook 前一天买票）</span></div>
+        <div class="row"><b>新加坡</b><span>滨海湾灯光秀 19:45/20:45</span></div>
+        <div class="row"><b>香港</b><span>太平山顶 · 天星小轮</span></div>
+      </div>
+      <div class="card">
+        <h3>🐰 米菲（现金 Wise 卡）</h3>
+        <div class="row"><b>星巴克</b><span>小号挂件 · One Fullerton</span></div>
+        <div class="row"><b>新航</b><span>KrisShop 挂件 S$35</span></div>
+        <div class="row"><b>Batik</b><span>Tumbler + 系列周边</span></div>
+      </div>
+      <div class="card">
+        <h3>🍜 吃</h3>
+        <div class="row"><b>暹粒</b><span>Amok · Kroya · Pub Street</span></div>
+        <div class="row"><b>香港</b><span>镛记烧鹅 · 添好运</span></div>
+        <div class="row"><b>新加坡</b><span>老巴刹海南鸡饭 · 辣椒蟹</span></div>
+      </div>
+      <div class="card">
+        <h3>🛒 香港采购（头两天）</h3>
+        <ul class="ck">
+          <li>AirTag 4 件装（Apple Store IFC + 激活）</li>
+          <li>髌骨绑带 · 驱蚊液</li>
+          <li>Lightning 线 ×2</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span class="serif" style="font-size:15px;color:var(--ink)">旅途全程手册</span><br>
+    香港 × 暹粒 × 新加坡 · 悉尼往返 7/12 – 7/26 · 更新于 2026-07-07<br>
+    由 <span class="em">旅途</span> 为你整理 · 一切以主清单实时状态为准 · 为公开分享已隐去证件号与支付账户
+  </footer>
+
+</div>
+</body>
+</html>
