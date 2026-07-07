@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-hk-siemreap-singapore-trip",
+  "title": "旅途全程手册 · 香港 × 暹粒 × 新加坡",
+  "classification": "travel-planning",
+  "modes": [
+    "publish"
+  ],
+  "created_at": "2026-07-07",
+  "source": {
+    "host": "oh-my-pi",
+    "conversation_id": "trip-planning",
+    "completeness": "full",
+    "message_count": 0
+  },
+  "outputs": {
+    "human_page": "artifact.md"
+  },
+  "visibility": "public",
+  "redacted": true,
+  "next_actions": [
+    "7/8 买 Airalo eSIM",
+    "7/10 国泰网上值机 + 柬 e-Arrival",
+    "7/16 填新加坡 SGAC 入境卡"
+  ]
+}
