@@ -90,7 +90,6 @@
 
 ## Still to decide / 行前待办
 
-- [x] ~~买 Airalo eSIM~~ ✅ 已买+已下载，仅待落地激活
 - [ ] 7/10 中午 10:10 国泰 CX162 网上值机（App 内 Check-in 存 Wallet）
 - [ ] 7/10 起 填柬埔寨 e-Arrival 电子入境卡
 - [ ] 行前几天 订吴哥 1 日票 $37 + Phare 马戏 B 区 $28
