@@ -1,3 +1,7 @@
 title: Handoff — Context Capsules
 description: Published, shareable artifacts exported from AI conversations.
-theme: jekyll-theme-cayman
+# Minimal custom layout (no Cayman big-header banner; mobile-first). Applied to
+# every page so artifacts render content-first, especially on phones.
+defaults:
+  - scope: { path: "" }
+    values: { layout: default }
