@@ -84,17 +84,17 @@
 
 **💳 支付 & 通讯**
 - 主力 Wise 卡（USD/SGD）+ 备用卡 + 小额 USD 现金；Grab 已绑 Wise
-- 上网 Airalo eSIM（Asialink 10GB）；澳洲号搬备用机留家，短信前转已实测可收（含银行 OTP）
+- 上网 Airalo eSIM（Asialink 10GB）**已买+已下载装机**，仅待落地香港激活；澳洲号搬备用机留家，短信前转已实测可收（含银行 OTP）
 
 ---
 
 ## Still to decide / 行前待办
 
-- [ ] ~7/8 买 Airalo eSIM
+- [x] ~~买 Airalo eSIM~~ ✅ 已买+已下载，仅待落地激活
 - [ ] 7/10 中午 10:10 国泰 CX162 网上值机（App 内 Check-in 存 Wallet）
 - [ ] 7/10 起 填柬埔寨 e-Arrival 电子入境卡
 - [ ] 行前几天 订吴哥 1 日票 $37 + Phare 马戏 B 区 $28
-- [ ] 行前 通知银行开境外交易；扫 amaysim 余额盖过 7/26
+- [ ] 行前 备好兜底卡（Wise 主力 + Amex/Visa 备用）；扫 amaysim 余额盖过 7/26　*（境外交易无需申请，卡默认可用）*
 - [ ] 7/16 周四 填新加坡入境卡 SGAC
 - [ ] 香港头两天 采购：AirTag 4 件装 + 髌骨绑带 + 驱蚊液 + Lightning 线 ×2
 - [ ] 7/26 落地悉尼 Incoming Passenger Card 申报食品
