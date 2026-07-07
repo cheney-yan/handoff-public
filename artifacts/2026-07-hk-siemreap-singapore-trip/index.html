@@ -64,8 +64,8 @@
 
   /* ── 区块 ── */
   section{margin:64px 0 0}
-  .sec-h{display:flex;align-items:baseline;gap:14px;border-bottom:2px solid var(--ink);padding-bottom:10px;margin-bottom:26px}
-  .sec-h .no{font-family:Georgia,serif;font-size:12px;color:var(--brick);letter-spacing:.14em;font-weight:700}
+  .sec-h{display:flex;align-items:center;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:10px;margin-bottom:26px}
+  .sec-h .no{display:inline-flex;align-items:center;justify-content:center;min-width:26px;height:26px;padding:0 7px;border-radius:14px;background:var(--brick);color:#faf6ec;font-family:Georgia,serif;font-size:12px;letter-spacing:.03em;font-weight:700;flex-shrink:0}
   .sec-h h2{font-size:22px}
   .sec-h .sub{font-size:12px;color:var(--ink-soft);margin-left:auto;text-align:right;letter-spacing:.02em}
 
@@ -93,14 +93,14 @@
   .card{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:18px 20px;transition:transform .18s ease,box-shadow .18s ease}
   .card:hover{transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,90,60,.10)}
   .card h3{font-size:15px;margin-bottom:12px;color:var(--brick);display:flex;align-items:center;gap:7px}
-  .card .row{font-size:13.5px;padding:5px 0;border-bottom:1px dotted var(--line);display:flex;justify-content:space-between;gap:12px}
+  .card .row{font-size:14px;padding:7px 0;border-bottom:1px dotted var(--line);display:flex;justify-content:space-between;gap:12px}
   .card .row:last-child{border-bottom:none}
   .card .row b{color:var(--ink-soft);font-weight:600;flex-shrink:0}
   .card .row span{text-align:right;color:var(--ink)}
 
   /* 清单 */
   ul.ck{list-style:none;font-size:14px}
-  ul.ck li{padding:6px 0 6px 26px;position:relative;border-bottom:1px dotted var(--line)}
+  ul.ck li{padding:8px 0 8px 26px;position:relative;border-bottom:1px dotted var(--line);line-height:1.5}
   ul.ck li:last-child{border-bottom:none}
   ul.ck li::before{content:"○";position:absolute;left:2px;color:var(--brick-soft);font-size:13px}
   ul.ck li.done::before{content:"●";color:var(--done)}
@@ -124,6 +124,19 @@
   footer{margin-top:80px;border-top:2px solid var(--ink);padding-top:20px;text-align:center;font-size:12px;color:var(--ink-soft);letter-spacing:.03em;line-height:1.9}
   footer .em{color:var(--brick);font-style:italic;font-family:"Noto Serif SC",Georgia,serif}
   a{color:var(--brick);text-decoration:none;border-bottom:1px solid var(--brick-soft)}
+
+  /* ── 移动优先微调 ── */
+  @media(max-width:600px){
+    .wrap{padding:0 16px 72px}
+    header.top{padding:40px 0 0}
+    section{margin:48px 0 0}
+    .sec-h{flex-wrap:wrap;gap:8px 10px}
+    .sec-h .sub{margin-left:0;flex-basis:100%;text-align:left;order:3}
+    /* 窄屏表格可横向滚动，不撑破布局 */
+    table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch;white-space:nowrap}
+    .card{padding:16px 16px}
+    .card:hover{transform:none}
+  }
 </style>
 </head>
 <body>
