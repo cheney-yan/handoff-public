@@ -1,0 +1,31 @@
+Generate one standalone 16:9 horizontal Chinese article illustration.
+
+Visual DNA:
+Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten Chinese annotations. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
+
+Recurring IP character required:
+小黑, a small solid-black absurd creature with white dot eyes, tiny thin legs, blank serious expression, slightly uneven hand-drawn body shape. 小黑 must perform the core conceptual action, not decorate the scene. Make 小黑 serious, deadpan, and slightly bizarre, not cute.
+
+Theme:
+在三万英尺的飞机商务舱里，认认真真吃一盘粤式焖牛腩配时蔬白饭，一顿"不白吃"的旅途正餐。
+
+Structure type:
+角色状态 / 概念隐喻
+
+Core idea:
+小黑坐在飞机商务舱靠窗的座位上，前面小桌板摆着一盘焖牛腩配青菜、一小碗白饭、一盅炖汤，正一本正经地举筷子夹牛腩。表达"云端之上也要好好吃、吃得聪明"的态度。
+
+Composition:
+画面中间偏左是小黑坐在一张简单的飞机座椅里，面前一块可折叠小桌板；桌板上从左到右摆着一盅炖汤、一盘牛腩配绿色时蔬、一小碗白饭；小黑一只细手举着筷子夹起一块牛腩，表情严肃认真。右上角一个圆形舷窗，窗外几缕简单的云。座椅上方一块小小的娱乐屏幕。
+
+Suggested elements:
+飞机舷窗与云 / 折叠小桌板上的一盘牛腩青菜 / 一小碗白饭 / 一盅炖汤 / 小黑手举的筷子
+
+Chinese handwritten labels:
+云端正餐 / 焖牛腩 / 白饭减半 / 汤喝七分 / 不白吃
+
+Color use:
+Black for main line art and 小黑. Orange for the筷子夹牛腩的动作/主路径. Red only for the label 不白吃 as the key attitude. Blue only for 白饭减半 / 汤喝七分 as secondary health notes.
+
+Constraints:
+One image explains only one core structure. Keep the main subject around 40%-60% of the canvas. Preserve at least 35% blank white space. Use at most 5-8 short handwritten Chinese labels. Do not write a title in the top-left corner. Do not write the structure type on the image. Do not make it a formal diagram, course slide, or dense explainer. Invent a fresh visual metaphor for this specific article. It should be clear but not instructional, interesting but not childish, strange but clean.
