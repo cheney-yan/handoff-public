@@ -7,7 +7,7 @@ title: 珀斯→阿德莱德 圣诞家庭自驾(草案)
 
 <style>
 .cc-trip{--o:#e8772e;--od:#b8561a;--soft:#fff5eb;--line:#eee;--mute:#777}
-.cc-trip .badge{display:inline-block;background:#c0392b;color:#fff;font-size:.8rem;font-weight:600;padding:2px 10px;border-radius:999px;vertical-align:middle;letter-spacing:.05em}
+.badge{display:inline-block;background:#c0392b;color:#fff;font-size:.8rem;font-weight:600;padding:2px 10px;border-radius:999px;vertical-align:middle;letter-spacing:.05em}
 .cc-trip .lede{color:#555;margin:.3em 0 .8em}
 .cc-trip .facts{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:12px 0 16px}
 .cc-trip .fact{background:var(--soft);border-radius:10px;padding:8px 12px}
