@@ -1,0 +1,12 @@
+{
+  "id": "2026-11-07-higgs-realtime-duplex",
+  "title": "扒一扒李沐的全双工 AI：Higgs Realtime Duplex",
+  "classification": "research-analysis",
+  "modes": ["publish"],
+  "created_at": "2026-11-07",
+  "source": {"host": "hermes-kia", "conversation_id": "discord-wechat-thread", "completeness": "full", "message_count": 0},
+  "outputs": {"human_page": "artifact.md"},
+  "visibility": "public",
+  "redacted": true,
+  "next_actions": ["API 开放后实测中文与真实会议场景", "核实 45B 激活参数量与委派开关"]
+}
