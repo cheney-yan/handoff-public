@@ -4,6 +4,7 @@ Published, shareable artifacts exported from AI conversations. Each links to a
 polished page; the full (unredacted) bundle lives in the private store.
 
 ## Artifacts
+- [珀斯→阿德莱德 圣诞家庭自驾(草案)](./artifacts/2026-11-05-perth-adelaide-xmas/) — travel-planning
 - [中式五香牛肉干 家庭高蛋白版](./artifacts/2026-08-13-wuxiang-niurougan/) — idea-grooming
 - [悉尼买齐川味牛肉干佐料](./artifacts/2026-08-09-sydney-jerky-spice-guide/) — life-chat
 - [云端焖牛腩：三万英尺上的一顿不白吃](./artifacts/2026-07-11-yun-duan-men-niu-nan/) — life-chat

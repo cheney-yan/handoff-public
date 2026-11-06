@@ -1,0 +1,40 @@
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "PingFang SC, Hiragino Sans GB, Helvetica, sans-serif", "fontSize": "15px", "primaryColor": "#fff7ef", "primaryBorderColor": "#e8772e", "primaryTextColor": "#222", "lineColor": "#e8772e", "edgeLabelBackground": "#ffffff", "clusterBkg": "#fcfcfc", "clusterBorder": "#dddddd"}, "htmlLabels": false, "flowchart": {"htmlLabels": false, "curve": "linear", "nodeSpacing": 26, "rankSpacing": 24, "padding": 8}}}%%
+flowchart LR
+  subgraph W["西半程 · 西澳"]
+    direction TB
+    PER(["珀斯 Perth<br/>12/12–14"])
+    MR["Margaret River<br/>12/15–16"]
+    ALB["Albany<br/>12/17–18"]
+    RAV["Ravensthorpe<br/>12/19"]
+    ESP["Esperance<br/>12/20–21"]
+    NOR["Norseman<br/>12/22"]
+    CAI["Caiguna<br/>12/23"]
+    PER -->|272 km| MR
+    MR -->|345 km| ALB
+    ALB -->|293 km| RAV
+    RAV -->|187 km| ESP
+    ESP -->|203 km| NOR
+    NOR -->|372 km 最长| CAI
+  end
+  subgraph E["东半程 · 进南澳"]
+    direction TB
+    EUC["Eucla<br/>12/24 平安夜"]
+    NRH["Nullarbor RH<br/>12/25 圣诞"]
+    CED["Ceduna<br/>12/26"]
+    SB["Streaky Bay<br/>12/27"]
+    PL["Port Lincoln<br/>12/28–29"]
+    PA["Port Augusta<br/>12/30"]
+    ADL(["阿德莱德<br/>12/31–1/3"])
+    EUC -->|196 km| NRH
+    NRH -->|296 km| CED
+    CED -->|109 km| SB
+    SB -->|295 km| PL
+    PL -->|342 km| PA
+    PA -->|309 km| ADL
+  end
+  W ==>|337 km| E
+
+  classDef endpoint fill:#e8772e,stroke:#b8561a,color:#fff,font-weight:bold
+  classDef remote fill:#fff1e0,stroke:#c0392b,stroke-width:2px,color:#222
+  class PER,ADL endpoint
+  class NOR,CAI,EUC,NRH remote
