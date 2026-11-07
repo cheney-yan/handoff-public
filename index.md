@@ -4,6 +4,7 @@ Published, shareable artifacts exported from AI conversations. Each links to a
 polished page; the full (unredacted) bundle lives in the private store.
 
 ## Artifacts
+- [魔方 R-3「散步小女孩提醒」v1](./artifacts/2026-11-08-cube-r3-walk-girl/) — product-demo
 - [CoordX「agent 防火墙」拆解](./artifacts/2026-11-07-coordx-agent-firewall/) — research-analysis
 - [扒一扒李沐的全双工 AI：Higgs Realtime Duplex](./artifacts/2026-11-07-higgs-realtime-duplex/) — research-analysis
 - [珀斯→阿德莱德 圣诞家庭自驾(草案)](./artifacts/2026-11-05-perth-adelaide-xmas/) — travel-planning
