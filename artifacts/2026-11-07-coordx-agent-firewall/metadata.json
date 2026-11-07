@@ -1,0 +1,24 @@
+{
+  "id": "2026-11-07-coordx-agent-firewall",
+  "title": "CoordX「agent 防火墙」拆解：agent 之间到底怎么交互，新在哪",
+  "classification": "research-analysis",
+  "modes": [
+    "publish"
+  ],
+  "created_at": "2026-11-07",
+  "source": {
+    "host": "hermes-kia",
+    "conversation_id": "discord-thread",
+    "completeness": "full",
+    "message_count": 0
+  },
+  "outputs": {
+    "human_page": "artifact.md"
+  },
+  "visibility": "public",
+  "redacted": true,
+  "next_actions": [
+    "dev preview 发布后实测 CLI 与 Type",
+    "开源后核对实现"
+  ]
+}
