@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-12-anthropic-numbers",
+  "title": "Anthropic 招股书数字拆解：估值、股数、收入为什么忽快忽慢，Q4 怎么猜",
+  "classification": "research-analysis",
+  "modes": [
+    "publish"
+  ],
+  "created_at": "2026-11-12",
+  "outputs": {
+    "human_page": "artifact.md"
+  },
+  "visibility": "public",
+  "disclaimer": "Not investment advice",
+  "related": [
+    "2026-11-12-anthropic-ipo-roadshow"
+  ]
+}
