@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-12-anthropic-ipo-roadshow",
+  "title": "Anthropic IPO 路演文件拆解：贵不贵、险在哪、澳洲怎么参与",
+  "classification": "research-analysis",
+  "modes": [
+    "publish"
+  ],
+  "created_at": "2026-11-12",
+  "source": {
+    "host": "hermes-kia",
+    "conversation_id": "discord-horizon-thread",
+    "completeness": "full",
+    "message_count": 0
+  },
+  "outputs": {
+    "human_page": "artifact.md",
+    "files": [
+      "files/factsheet.pdf",
+      "files/founders-letter.pdf",
+      "files/australian-prospectus.pdf"
+    ]
+  },
+  "visibility": "public",
+  "redacted": true,
+  "disclaimer": "Not investment advice",
+  "next_actions": [
+    "11/19 定价后更新补充招股书数字",
+    "看完路演视频补内容"
+  ]
+}

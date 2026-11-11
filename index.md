@@ -4,6 +4,7 @@ Published, shareable artifacts exported from AI conversations. Each links to a
 polished page; the full (unredacted) bundle lives in the private store.
 
 ## Artifacts
+- [Anthropic IPO 路演文件拆解：贵不贵、险在哪、澳洲怎么参与](./artifacts/2026-11-12-anthropic-ipo-roadshow/) — research-analysis
 - [Claude Fable 5.2 深度拆解：强在哪、贵在哪、该不该换](./artifacts/2026-11-11-claude-fable-5-2/) — research-analysis
 - [魔方 R-3「散步小女孩提醒」v1](./artifacts/2026-11-08-cube-r3-walk-girl/) — product-demo
 - [CoordX「agent 防火墙」拆解](./artifacts/2026-11-07-coordx-agent-firewall/) — research-analysis
