@@ -4,6 +4,7 @@ Published, shareable artifacts exported from AI conversations. Each links to a
 polished page; the full (unredacted) bundle lives in the private store.
 
 ## Artifacts
+- [黄仁勋辞职后的 NVDA：时间线、情景推演与历史对照](./artifacts/2026-11-14-nvda-after-huang/) — research-analysis
 - [2026 年 Rust 异步运行时现状：tokio、async-std、smol 怎么选](./artifacts/2026-11-14-rust-async-runtimes/) — research-analysis
 - [Anthropic 招股书数字拆解：估值、股数、收入为什么忽快忽慢，Q4 怎么猜](./artifacts/2026-11-12-anthropic-numbers/) — research-analysis
 - [Anthropic IPO 路演文件拆解：贵不贵、险在哪、澳洲怎么参与](./artifacts/2026-11-12-anthropic-ipo-roadshow/) — research-analysis
