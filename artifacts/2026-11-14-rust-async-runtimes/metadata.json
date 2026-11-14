@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-14-rust-async-runtimes",
+  "title": "2026 年 Rust 异步运行时现状：tokio、async-std、smol 怎么选",
+  "date": "2026-11-14",
+  "classification": "research-analysis",
+  "visibility": "public",
+  "requested_by": "王五",
+  "chat": "WeChat group (via wxbot)",
+  "sources": [
+    "https://github.com/async-rs/async-std",
+    "https://rustsec.org/advisories/RUSTSEC-2025-0052.html",
+    "https://github.com/tokio-rs/tokio",
+    "https://github.com/tokio-rs/tokio/releases/tag/tokio-1.54.0",
+    "https://github.com/smol-rs/smol",
+    "https://crates.io/api/v1/crates/",
+    "https://iggy.apache.org/blogs/2026/02/27/thread-per-core-io_uring/",
+    "https://rust-trends.com/posts/rust-async-runtimes-compared/",
+    "https://corrode.dev/blog/async/",
+    "https://github.com/0x676e67/wreq"
+  ]
+}
