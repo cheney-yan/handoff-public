@@ -4,6 +4,7 @@ Published, shareable artifacts exported from AI conversations. Each links to a
 polished page; the full (unredacted) bundle lives in the private store.
 
 ## Artifacts
+- [AI 时代的软件工程 / DevOps / SRE / Platform 岗位：名字、要求、活儿怎么变](./artifacts/2026-11-20-devops-sre-jobs-ai/) — research-analysis
 - [澳洲被裁之后多久能再上岗？2015–2025 十年数据、行业/年龄差异与 AI 的影响](./artifacts/2026-11-18-au-redundancy-reemployment/) — research-analysis
 - [黄仁勋辞职后的 NVDA：时间线、情景推演与历史对照](./artifacts/2026-11-14-nvda-after-huang/) — research-analysis
 - [2026 年 Rust 异步运行时现状：tokio、async-std、smol 怎么选](./artifacts/2026-11-14-rust-async-runtimes/) — research-analysis
