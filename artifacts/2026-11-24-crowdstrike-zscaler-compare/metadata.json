@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-24-crowdstrike-zscaler-compare",
+  "title": "CrowdStrike 与 Zscaler 全业务对比：业务线、部署、优劣与采购注意",
+  "date": "2026-11-24",
+  "classification": "research-analysis",
+  "visibility": "public",
+  "requested_by": "Bill",
+  "chat": "DevOps & SRE 群 (via wxbot)",
+  "sources": [
+    "https://www.zscaler.com/press/crowdstrike-acquire-zscaler-bringing-network-security-and-zero-trust-falcon-platform",
+    "https://crowdstrike.com/en-us/press-releases/crowdstrike-to-acquire-zscaler-bringing-network-security-and-zero-trust-to-the-falcon-platform",
+    "https://bloomberg.com/news/articles/2026-11-20/crowdstrike-is-in-talks-to-buy-cybersecurity-firm-zscaler",
+    "https://www.cnbc.com/2026/11/23/crowdstrike-to-buy-zscaler.html",
+    "https://www.crowdstrike.com/en-us/platform/endpoint-security/",
+    "https://www.crowdstrike.com/en-us/platform/cloud-security/",
+    "https://www.crowdstrike.com/en-us/platform/identity-protection/",
+    "https://www.crowdstrike.com/en-us/platform/next-gen-siem/",
+    "https://www.crowdstrike.com/en-us/platform/exposure-management/",
+    "https://www.crowdstrike.com/en-us/platform/threat-intelligence/",
+    "https://www.zscaler.com/products-and-solutions/zero-trust-exchange",
+    "https://www.zscaler.com/products-and-solutions/zscaler-internet-access",
+    "https://www.zscaler.com/products-and-solutions/zscaler-private-access",
+    "https://www.zscaler.com/products-and-solutions/data-protection",
+    "https://www.zscaler.com/products-and-solutions/cloud-access-security-broker-casb",
+    "https://www.zscaler.com/products-and-solutions/zero-trust-branch"
+  ]
+}
