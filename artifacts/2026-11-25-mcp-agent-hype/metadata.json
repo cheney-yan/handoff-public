@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-25-mcp-agent-hype",
+  "title": "个人AI小助手、工作AI助手与MCP代理互联热潮：生产力突破，还是宣传繁荣？",
+  "date": "2026-11-25",
+  "requested_by": "Vincent-Syd-IT",
+  "chat": "AI群英会-主群",
+  "sources": [
+    {"title": "The 2026 MCP Roadmap", "url": "https://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap/", "date": "2026"},
+    {"title": "A2A Protocol Ships v1.0", "url": "https://a2a-protocol.org/latest/blog/2026/03/12/a2a-protocol-ships-v10-production-ready-standard-for-agent-to-agent-communication", "date": "2026-03-12"},
+    {"title": "A2A Protocol Surpasses 150 Organizations (Linux Foundation)", "url": "https://linuxfoundation.org/press/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year", "date": "2026-04-09"},
+    {"title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of (Ars Technica)", "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp", "date": "2026-10"},
+    {"title": "AI Agents and the Curse of the Real World Benchmark", "url": "https://www.informationdifference.com/ai-agents-and-the-curse-of-the-real-world-benchmark/", "date": "2025-10 (benchmark publication)"},
+    {"title": "The state of MCP security in 2026 (Microsoft)", "url": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/the-state-of-mcp-security-in-2026/4531327", "date": "2026-06-26"},
+    {"title": "Protecting against indirect prompt injection attacks in MCP (Microsoft)", "url": "https://developer.microsoft.com/blog/protecting-against-indirect-injection-attacks-mcp/", "date": "unverified"},
+    {"title": "MCP Adoption Statistics 2026 (digitalapplied)", "url": "https://www.digitalapplied.com/blog/mcp-adoption-statistics-2026-model-context-protocol", "date": "2026-10-21 snapshot"}
+  ]
+}
