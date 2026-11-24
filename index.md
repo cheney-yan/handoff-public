@@ -4,6 +4,7 @@ Published, shareable artifacts exported from AI conversations. Each links to a
 polished page; the full (unredacted) bundle lives in the private store.
 
 ## Artifacts
+- [Claude 与 ChatGPT 的 MCP / 连接器生态：官方资料对比（核验日期 2026-11-25）](./artifacts/2026-11-25-mcp-claude-vs-chatgpt/) — research-analysis
 - [MCP 与个人/工作 AI 助手：生产力突破还是宣传繁荣？（独立证据与可检验指标）](./artifacts/2026-11-25-mcp-agent-hype/) — research-analysis
 - [CrowdStrike 与 Zscaler 全业务对比：业务线、部署、优劣与采购注意（含收购公告核实）](./artifacts/2026-11-24-crowdstrike-zscaler-compare/) — research-analysis
 - [AI 时代的软件工程 / DevOps / SRE / Platform 岗位：名字、要求、活儿怎么变](./artifacts/2026-11-20-devops-sre-jobs-ai/) — research-analysis

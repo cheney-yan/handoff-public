@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-25-mcp-claude-vs-chatgpt",
+  "title": "Claude 与 ChatGPT 的 MCP / 连接器生态：官方资料对比",
+  "date": "2026-11-25",
+  "requested_by": "Vincent-Syd-IT",
+  "chat": "AI群英会-主群",
+  "sources": [
+    {"title": "Connectors Directory (Claude)", "url": "https://claude.com/docs/connectors/directory"},
+    {"title": "Enterprise Managed Auth for connectors (Claude)", "url": "https://claude.com/docs/connectors/building/enterprise-managed-auth"},
+    {"title": "Get started with custom connectors using remote MCP (Claude Help Center)", "url": "https://support.claude.com/en/articles/11175166"},
+    {"title": "Use connectors to extend Claude's capabilities (Claude Help Center)", "url": "https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities"},
+    {"title": "Slack integration (Claude)", "url": "https://claude.com/docs/connectors/slack/index"},
+    {"title": "Connecting custom MCP servers in ChatGPT (OpenAI Help Center)", "url": "https://help.openai.com/en/articles/12584461-connecting-custom-mcp-servers-in-chatgpt"},
+    {"title": "Developer mode and MCP connectors in ChatGPT (OpenAI Help Center)", "url": "https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-connectors-in-chatgpt"},
+    {"title": "ChatGPT Business release notes (OpenAI Help Center)", "url": "https://help.openai.com/en/articles/11391654-chatgpt-business-release-notes"},
+    {"title": "ChatGPT agent (OpenAI Help Center, marked no longer available)", "url": "https://help.openai.com/en/articles/11752874-chatgpt-agent"},
+    {"title": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT (OpenAI)", "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt"},
+    {"title": "MCP Specification 2025-11-25: Authorization", "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization"},
+    {"title": "Poisoned document could leak secret data via ChatGPT (WIRED, 2025-08-08)", "url": "https://wired.com/story/poisoned-document-could-leak-secret-data-chatgpt"}
+  ]
+}
