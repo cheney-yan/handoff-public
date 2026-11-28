@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-28-syd-xmas-ai-dev-meetups-v2",
+  "title": "圣诞前悉尼 IT / AI / DevOps 线下活动（2026-12-02 至 12-17）",
+  "date": "2026-11-28",
+  "requested_by": "Cheney",
+  "chat": "DevOps & SRE 群（wxbot 转交）",
+  "sources": [
+    {"title": "AI Week Sydney 2026", "url": "https://aiweek.com.au", "date": "2026-11-28"},
+    {"title": "AI Week Sydney 主办方说明", "url": "https://aiweek.com.au/host", "date": "2026-11-28"},
+    {"title": "AI Engineer Sydney 2026", "url": "https://webdirections.org/ai-engineer/", "date": "2026-11-28"},
+    {"title": "AI Engineer Hack Day", "url": "https://webdirections.org/ai-engineer/hack-day", "date": "2026-11-28"},
+    {"title": "AI Engineer 工作坊", "url": "https://webdirections.org/ai-engineer/workshops", "date": "2026-11-28"},
+    {"title": "AI Engineer Hack Day (aievents.now)", "url": "https://aievents.now/sydney/events/ai-engineer-hack-day-2026-12-04", "date": "2026-11-28"},
+    {"title": "NeurIPS Sydney AI Networking Evening (Meetup)", "url": "https://www.meetup.com/en-AU/en-AU/ailearnersclub/events/317386700/", "date": "2026-11-28"},
+    {"title": "CNCF Sydney Holiday Wrap-Up (Meetup)", "url": "https://www.meetup.com/en-AU/cncf-sydney/events/317576866/", "date": "2026-11-28"},
+    {"title": "KSUG.AI Australia #74 (Meetup)", "url": "https://www.meetup.com/en-AU/en-AU/ksug-au/events/316032371/", "date": "2026-11-28"},
+    {"title": "Atlassian Festive Tech Meetup (ACE)", "url": "https://ace.atlassian.com/events/details/atlassian-sydney-presents-festive-tech-meetup-christmas-with-atlassian-community-sydney-chapter", "date": "2026-11-28"},
+    {"title": "Claude for Developers Sydney", "url": "https://claudecommunity.com.au/events/sydney-claude-for-developers-december-2026", "date": "2026-11-28"},
+    {"title": "AI Engineering Summit Sydney (Eventbrite)", "url": "https://eventbrite.com/e/ai-engineering-summit-sydney-2026-tickets-1995177889777", "date": "2026-11-28"}
+  ]
+}
