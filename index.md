@@ -4,6 +4,7 @@ Published, shareable artifacts exported from AI conversations. Each links to a
 polished page; the full (unredacted) bundle lives in the private store.
 
 ## Artifacts
+- [圣诞前悉尼 IT / AI 线下活动清单（2026-11-28 至 12-24，逐条核实）](./artifacts/2026-11-28-syd-xmas-ai-dev-meetups/) — research-analysis
 - [2026 黑五（澳洲 / 悉尼）：AI 与开发者软件，哪些是真优惠（2026-11-26 核验）](./artifacts/2026-11-26-black-friday-au-ai-dev/) — research-analysis
 - [Claude 与 ChatGPT 的 MCP / 连接器生态：官方资料对比（核验日期 2026-11-25）](./artifacts/2026-11-25-mcp-claude-vs-chatgpt/) — research-analysis
 - [MCP 与个人/工作 AI 助手：生产力突破还是宣传繁荣？（独立证据与可检验指标）](./artifacts/2026-11-25-mcp-agent-hype/) — research-analysis
